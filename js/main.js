@@ -59,12 +59,18 @@ function setupTabNavigation() {
             this.classList.add('active');
             document.getElementById(this.dataset.tab + '-tab').classList.add('active');
             
-            // Map initialisieren wenn Tab geöffnet wird
-            if (this.dataset.tab === 'map' && !map) {
-                setTimeout(() => {
-                    initializeMap();
-                }, 100);
-            }
+ // Map initialisieren wenn Tab geöffnet wird
+if (this.dataset.tab === 'map') {
+    setTimeout(() => {
+        initializeMap();
+        // Leaflet braucht manchmal einen zusätzlichen Resize
+        if (map) {
+            map.invalidateSize();
+        }
+    }, 200);
+}
+
+            
         });
     });
 }
@@ -188,11 +194,29 @@ function recalculateScores() {
 // ==========================================
 
 function initializeMap() {
-    map = L.map('map').setView([51.165, 10.451], 6);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors'
-    }).addTo(map);
-    updateMapMarkers();
+    // Sicherstellen, dass Container existiert
+    const mapContainer = document.getElementById('map');
+    if (!mapContainer) {
+        console.log('Map container nicht gefunden, warte...');
+        return;
+    }
+    
+    // Prüfen ob bereits initialisiert
+    if (map !== null) {
+        console.log('Map bereits initialisiert');
+        return;
+    }
+    
+    try {
+        map = L.map('map').setView([51.165, 10.451], 6);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+        updateMapMarkers();
+        console.log('Map erfolgreich initialisiert');
+    } catch (error) {
+        console.error('Fehler bei Map-Initialisierung:', error);
+    }
 }
 
 function updateMapMarkers() {
