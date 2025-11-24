@@ -1,0 +1,23 @@
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporäre Dateien
+*.tmp
+*.temp
+*~
+
+# Backup Dateien
+*.backup
+*.bak
+*.old
