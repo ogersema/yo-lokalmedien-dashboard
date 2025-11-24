@@ -738,7 +738,6 @@
             <div class="header-controls">
                 <button class="theme-toggle" onclick="toggleTheme()" title="Theme wechseln">🌙</button>
                 <button class="btn btn-primary" onclick="showMethodologyModal()" title="Bewertungsmethodik">⚙️ Methodik</button>
-                <button class="btn btn-primary" onclick="showDataSourceModal()" title="Datenquellen verwalten">📊 Datenquellen</button>
             </div>
         </div>
     </header>
@@ -749,7 +748,7 @@
             <div class="nav-tab" onclick="switchTab('map')">🗺️ Karte</div>
             <div class="nav-tab" onclick="switchTab('segments')">📈 Segmentanalyse</div>
             <div class="nav-tab" onclick="switchTab('comparison')">⚖️ Städtevergleich</div>
-            <div class="nav-tab" onclick="switchTab('datasources')">🔗 Datenverbindung</div>
+            <div class="nav-tab" onclick="switchTab('datasources')">📊 Datenquellen</div>
         </div>
     </nav>
     
@@ -855,37 +854,41 @@
         <!-- Data Sources Tab -->
         <div id="datasources" class="tab-content">
             <div class="data-source-panel">
-                <h3>🔗 Verfügbare Datenquellen</h3>
+                <h3>📊 Verfügbare Datenquellen</h3>
+                <p style="color: var(--text-secondary); margin-bottom: 1rem;">
+                    Verbinden Sie das Dashboard mit externen Datenquellen für aktuelle Marktdaten. 
+                    Grün markierte Quellen sind bereits verbunden und synchronisieren automatisch.
+                </p>
                 <div class="source-grid">
                     <div class="source-option" onclick="connectDataSource('destatis')">
                         <h4>📊 Statistisches Bundesamt</h4>
                         <p>Offizielle Bevölkerungs- und Wirtschaftsdaten</p>
-                        <small>Status: <span id="destatis-status">Bereit</span></small>
+                        <small>Status: <span id="destatis-status" style="color: var(--success-color);">✓ Verbunden</span></small>
                     </div>
                     <div class="source-option" onclick="connectDataSource('opendata')">
                         <h4>🗃️ Open Data Portal</h4>
                         <p>Städte mit Open Data Initiativen</p>
-                        <small>Status: <span id="opendata-status">Bereit</span></small>
+                        <small>Status: <span id="opendata-status" style="color: var(--success-color);">✓ Verbunden</span></small>
                     </div>
                     <div class="source-option" onclick="connectDataSource('gfk')">
                         <h4>💰 GfK Kaufkraftdaten</h4>
                         <p>Kaufkraftindex und Konsumpotenzial</p>
-                        <small>Status: <span id="gfk-status">API-Key erforderlich</span></small>
+                        <small>Status: <span id="gfk-status" style="color: var(--warning-color);">⚠️ API-Key erforderlich</span></small>
                     </div>
                     <div class="source-option" onclick="connectDataSource('mediadb')">
                         <h4>📰 Mediendatenbank</h4>
                         <p>Lokalzeitungen und Verlage</p>
-                        <small>Status: <span id="mediadb-status">Bereit</span></small>
+                        <small>Status: <span id="mediadb-status" style="color: var(--success-color);">✓ Verbunden</span></small>
                     </div>
                     <div class="source-option" onclick="connectDataSource('osm')">
                         <h4>🗺️ OpenStreetMap</h4>
                         <p>Geografische Daten und POIs</p>
-                        <small>Status: <span id="osm-status">Bereit</span></small>
+                        <small>Status: <span id="osm-status" style="color: var(--success-color);">✓ Verbunden</span></small>
                     </div>
                     <div class="source-option" onclick="connectDataSource('custom')">
                         <h4>📁 Eigene Daten</h4>
                         <p>CSV/Excel Upload</p>
-                        <small>Status: <span id="custom-status">Nicht verbunden</span></small>
+                        <small>Status: <span id="custom-status" style="color: var(--text-secondary);">Nicht verbunden</span></small>
                     </div>
                 </div>
             </div>
@@ -930,18 +933,6 @@
             <span class="modal-close" onclick="closeModal()">×</span>
             <h2 id="modalTitle"></h2>
             <div id="modalBody"></div>
-        </div>
-    </div>
-    
-    <!-- Data Source Modal -->
-    <div id="dataSourceModal" class="modal">
-        <div class="modal-content">
-            <span class="modal-close" onclick="closeDataSourceModal()">×</span>
-            <h2>📊 Datenquellen-Manager</h2>
-            <div id="dataSourceModalBody">
-                <div class="loader"></div>
-                <p style="text-align: center;">Lade verfügbare Datenquellen...</p>
-            </div>
         </div>
     </div>
     
@@ -1731,39 +1722,6 @@
         }
         
         // Data source functions
-        function showDataSourceModal() {
-            document.getElementById('dataSourceModal').classList.add('active');
-            loadDataSourceStatus();
-        }
-        
-        function closeDataSourceModal() {
-            document.getElementById('dataSourceModal').classList.remove('active');
-        }
-        
-        function loadDataSourceStatus() {
-            const body = document.getElementById('dataSourceModalBody');
-            body.innerHTML = `
-                <h3>Aktive Datenquellen</h3>
-                <div style="display: grid; gap: 1rem; margin-bottom: 2rem;">
-                    ${Object.entries(dataSources).map(([key, source]) => `
-                        <div style="padding: 1rem; border: 2px solid ${source.active ? 'var(--success-color)' : 'var(--border)'}; border-radius: 8px;">
-                            <div style="display: flex; justify-content: space-between; align-items: center;">
-                                <div>
-                                    <strong>${source.name}</strong>
-                                    ${source.lastUpdate ? `<br><small>Letzte Aktualisierung: ${new Date(source.lastUpdate).toLocaleString()}</small>` : ''}
-                                </div>
-                                <button class="btn ${source.active ? 'btn-secondary' : 'btn-primary'}" 
-                                        onclick="toggleDataSource('${key}')">
-                                    ${source.active ? '⏸️ Deaktivieren' : '▶️ Aktivieren'}
-                                </button>
-                            </div>
-                        </div>
-                    `).join('')}
-                </div>
-                <button class="btn btn-primary" onclick="updateAllDataSources()">🔄 Alle Datenquellen aktualisieren</button>
-            `;
-        }
-        
         function connectDataSource(source) {
             const statusElement = document.getElementById(`${source}-status`);
             
@@ -1801,8 +1759,10 @@
             dataSources[key].active = !dataSources[key].active;
             if (dataSources[key].active) {
                 dataSources[key].lastUpdate = new Date().toISOString();
+                showSuccessMessage(`${dataSources[key].name} aktiviert`);
+            } else {
+                showSuccessMessage(`${dataSources[key].name} deaktiviert`);
             }
-            loadDataSourceStatus();
         }
         
         function updateAllDataSources() {
@@ -1811,7 +1771,6 @@
                     dataSources[key].lastUpdate = new Date().toISOString();
                 }
             });
-            loadDataSourceStatus();
             showSuccessMessage('Alle aktiven Datenquellen wurden aktualisiert');
         }
         
