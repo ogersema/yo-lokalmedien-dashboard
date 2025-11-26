@@ -1243,15 +1243,22 @@
                 });
         });
         
-        // Load additional cities from external JSON
-        async function loadAdditionalCitiesFromJSON() {
-            try {
-                // Try different filenames in order of preference
-                const filenames = [
-    'data/cities-core.json',      // Top 50 sofort
-    'data/cities-tier2.json',     // 51-150 nach 1 Sek
-    'data/cities-tier3.json'      // 151-298 nach 2 Sek
-];               
+       async function loadAdditionalCitiesFromJSON() {
+    try {
+        // Lade die richtige Datei
+        const response = await fetch('cities-data-complete-40.json');
+        if (!response.ok) throw new Error('JSON not found');
+        
+        const data = await response.json();
+        processJSONData(data);
+        console.log(`✅ ${data.length} Städte geladen`);
+        return true;
+    } catch (error) {
+        console.warn('Externe Daten nicht verfügbar:', error);
+        throw error;
+    }
+}
+              
                 let data = null;
                 for (const filename of filenames) {
                     try {
