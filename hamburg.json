@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Hamburg",
+    "bundesland": "Hamburg",
+    "einwohner": 1906411,
+    "kaufkraft": 26741.0,
+    "akademikerquote": 32.1,
+    "lokalzeitungen": 6,
+    "typ": "Stadtstadt",
+    "openData": true,
+    "funke": false,
+    "ippen": false,
+    "madsack": false,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 15,
+      "zielgruppe": 17,
+      "digital": 24,
+      "wirtschaft": 21,
+      "identitaet": 15,
+      "praktikabilitaet": 15
+    },
+    "score": 71,
+    "description": "Stadtstadt mit 1,906,411 Einwohnern"
+  }
+]

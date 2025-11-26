@@ -1,0 +1,104 @@
+{
+  "version": "2.0",
+  "lastUpdate": "2025-11-25",
+  "totalCities": 298,
+  "dataSources": {
+    "core": {
+      "file": "data/cities-core.json",
+      "cities": 50,
+      "loadOnStart": true
+    },
+    "tier2": {
+      "file": "data/cities-tier2.json",
+      "cities": 100,
+      "loadOnStart": false
+    },
+    "tier3": {
+      "file": "data/cities-tier3.json",
+      "cities": 148,
+      "loadOnStart": false
+    }
+  },
+  "bundeslaender": [
+    {
+      "name": "Baden-Württemberg",
+      "file": "data/bundeslaender/baden-wuerttemberg.json",
+      "cities": 44
+    },
+    {
+      "name": "Bayern",
+      "file": "data/bundeslaender/bayern.json",
+      "cities": 45
+    },
+    {
+      "name": "Berlin",
+      "file": "data/bundeslaender/berlin.json",
+      "cities": 1
+    },
+    {
+      "name": "Brandenburg",
+      "file": "data/bundeslaender/brandenburg.json",
+      "cities": 8
+    },
+    {
+      "name": "Bremen",
+      "file": "data/bundeslaender/bremen.json",
+      "cities": 2
+    },
+    {
+      "name": "Hamburg",
+      "file": "data/bundeslaender/hamburg.json",
+      "cities": 1
+    },
+    {
+      "name": "Hessen",
+      "file": "data/bundeslaender/hessen.json",
+      "cities": 25
+    },
+    {
+      "name": "Mecklenburg-Vorpommern",
+      "file": "data/bundeslaender/mecklenburg-vorpommern.json",
+      "cities": 5
+    },
+    {
+      "name": "Niedersachsen",
+      "file": "data/bundeslaender/niedersachsen.json",
+      "cities": 38
+    },
+    {
+      "name": "Nordrhein-Westfalen",
+      "file": "data/bundeslaender/nordrhein-westfalen.json",
+      "cities": 76
+    },
+    {
+      "name": "Rheinland-Pfalz",
+      "file": "data/bundeslaender/rheinland-pfalz.json",
+      "cities": 17
+    },
+    {
+      "name": "Saarland",
+      "file": "data/bundeslaender/saarland.json",
+      "cities": 2
+    },
+    {
+      "name": "Sachsen",
+      "file": "data/bundeslaender/sachsen.json",
+      "cities": 8
+    },
+    {
+      "name": "Sachsen-Anhalt",
+      "file": "data/bundeslaender/sachsen-anhalt.json",
+      "cities": 10
+    },
+    {
+      "name": "Schleswig-Holstein",
+      "file": "data/bundeslaender/schleswig-holstein.json",
+      "cities": 10
+    },
+    {
+      "name": "Thüringen",
+      "file": "data/bundeslaender/thueringen.json",
+      "cities": 6
+    }
+  ]
+}

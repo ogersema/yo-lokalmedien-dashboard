@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Bremerhaven",
+    "bundesland": "Bremen",
+    "einwohner": 113643,
+    "kaufkraft": 19876.0,
+    "akademikerquote": 21.3,
+    "lokalzeitungen": 1,
+    "typ": "Stadt",
+    "openData": true,
+    "funke": false,
+    "ippen": false,
+    "madsack": false,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 25,
+      "zielgruppe": 8,
+      "digital": 22,
+      "wirtschaft": 14,
+      "identitaet": 15,
+      "praktikabilitaet": 20
+    },
+    "score": 69,
+    "description": "Stadt mit 113,643 Einwohnern"
+  },
+  {
+    "name": "Bremen",
+    "bundesland": "Bremen",
+    "einwohner": 567559,
+    "kaufkraft": 22345.0,
+    "akademikerquote": 28.6,
+    "lokalzeitungen": 3,
+    "typ": "Stadtstadt",
+    "openData": true,
+    "funke": false,
+    "ippen": false,
+    "madsack": false,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 19,
+      "zielgruppe": 12,
+      "digital": 24,
+      "wirtschaft": 17,
+      "identitaet": 15,
+      "praktikabilitaet": 15
+    },
+    "score": 68,
+    "description": "Stadtstadt mit 567,559 Einwohnern"
+  }
+]

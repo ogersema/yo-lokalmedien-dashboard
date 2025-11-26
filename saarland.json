@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Saarbrücken",
+    "bundesland": "Saarland",
+    "einwohner": 180741,
+    "kaufkraft": 21876.0,
+    "akademikerquote": 25.4,
+    "lokalzeitungen": 2,
+    "typ": "Landeshauptstadt",
+    "openData": true,
+    "funke": false,
+    "ippen": false,
+    "madsack": false,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 22,
+      "zielgruppe": 10,
+      "digital": 22,
+      "wirtschaft": 16,
+      "identitaet": 17,
+      "praktikabilitaet": 20
+    },
+    "score": 71,
+    "description": "Landeshauptstadt mit 180,741 Einwohnern"
+  },
+  {
+    "name": "Neunkirchen",
+    "bundesland": "Saarland",
+    "einwohner": 46098,
+    "kaufkraft": 20234.0,
+    "akademikerquote": 20.8,
+    "lokalzeitungen": 1,
+    "typ": "Stadt",
+    "openData": false,
+    "funke": false,
+    "ippen": false,
+    "madsack": false,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 25,
+      "zielgruppe": 8,
+      "digital": 16,
+      "wirtschaft": 15,
+      "identitaet": 18,
+      "praktikabilitaet": 18
+    },
+    "score": 66,
+    "description": "Stadt mit 46,098 Einwohnern"
+  }
+]

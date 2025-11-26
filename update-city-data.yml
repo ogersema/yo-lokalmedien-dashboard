@@ -1,0 +1,146 @@
+name: Update City Data
+on:
+  # Manueller Trigger
+  workflow_dispatch:
+    inputs:
+      update_type:
+        description: 'Update-Typ'
+        required: true
+        default: 'incremental'
+        type: choice
+        options:
+          - incremental
+          - full
+          - scores_only
+  
+  # Automatisch jeden Montag um 3 Uhr
+  schedule:
+    - cron: '0 3 * * 1'
+  
+  # Bei Push auf main (für CSV-Updates)
+  push:
+    branches: [main]
+    paths:
+      - 'data/cities-master.csv'
+      - 'scripts/**.py'
+
+jobs:
+  update-city-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+    
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas numpy requests beautifulsoup4 geopy
+        echo "✅ Dependencies installed"
+    
+    - name: Check for Master CSV
+      id: check_csv
+      run: |
+        if [ -f "data/cities-master.csv" ]; then
+          echo "csv_exists=true" >> $GITHUB_OUTPUT
+          echo "✅ Master CSV found"
+        else
+          echo "csv_exists=false" >> $GITHUB_OUTPUT
+          echo "⚠️ No master CSV found - will create"
+        fi
+    
+    - name: Create/Update Master CSV
+      run: |
+        if [ "${{ steps.check_csv.outputs.csv_exists }}" = "false" ]; then
+          echo "📝 Creating initial master CSV..."
+          python scripts/create_master_csv.py
+        else
+          echo "🔄 Updating existing CSV..."
+          python scripts/update_city_data.py
+        fi
+    
+    - name: Fetch Missing Coordinates
+      run: |
+        echo "📍 Fetching missing coordinates..."
+        python scripts/fetch_coordinates.py
+      continue-on-error: true
+    
+    - name: Fetch Economic Data
+      run: |
+        echo "💰 Updating economic data..."
+        python scripts/fetch_economic_data.py
+      continue-on-error: true
+    
+    - name: Calculate Scores
+      run: |
+        echo "🧮 Calculating scores for all cities..."
+        python scripts/calculate_all_scores.py
+    
+    - name: Generate JSON Files
+      run: |
+        echo "📦 Generating JSON files..."
+        python scripts/generate_json_files.py
+        
+        # Statistics
+        echo "📊 Statistics:"
+        python -c "
+        import json
+        with open('cities-config.json') as f:
+            config = json.load(f)
+            print(f'Total cities: {config[\"totalCities\"]}')
+            print(f'Files generated: {len(config[\"dataSources\"])}')
+        "
+    
+    - name: Validate Data
+      run: |
+        echo "✔️ Validating data integrity..."
+        python scripts/validate_data.py
+    
+    - name: Generate Report
+      run: |
+        echo "📄 Generating update report..."
+        python scripts/generate_report.py > update-report.md
+        cat update-report.md >> $GITHUB_STEP_SUMMARY
+    
+    - name: Commit Changes
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        
+        # Add all data files
+        git add data/*.json
+        git add data/bundeslaender/*.json
+        git add cities-config.json
+        git add update-report.md
+        
+        # Check if there are changes
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🤖 Auto-update city data $(date +'%Y-%m-%d')"
+          git push
+          echo "✅ Changes pushed to repository"
+        fi
+    
+    - name: Update Dashboard Cache
+      run: |
+        echo "🔄 Clearing dashboard cache..."
+        # Trigger cache invalidation (optional)
+        curl -X POST "https://api.github.com/repos/${{ github.repository }}/pages/builds" \
+          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json"
+    
+    - name: Send Notification
+      if: success()
+      run: |
+        echo "✅ Dashboard updated successfully!"
+        echo "Cities updated: $(cat update-report.md | grep 'Cities updated:' | cut -d: -f2)"
+        echo "View at: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"

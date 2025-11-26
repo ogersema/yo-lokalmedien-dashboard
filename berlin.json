@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Berlin",
+    "bundesland": "Berlin",
+    "einwohner": 3677472,
+    "kaufkraft": 23896.0,
+    "akademikerquote": 35.2,
+    "lokalzeitungen": 8,
+    "typ": "Hauptstadt",
+    "openData": true,
+    "funke": false,
+    "ippen": false,
+    "madsack": false,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 15,
+      "zielgruppe": 15,
+      "digital": 24,
+      "wirtschaft": 18,
+      "identitaet": 15,
+      "praktikabilitaet": 15
+    },
+    "score": 68,
+    "description": "Hauptstadt mit 3,677,472 Einwohnern"
+  }
+]
