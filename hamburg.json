@@ -8,20 +8,20 @@
     "lokalzeitungen": 6,
     "typ": "Stadtstadt",
     "openData": true,
-    "funke": false,
-    "ippen": false,
+    "funke": true,
+    "ippen": true,
     "madsack": false,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 15,
+      "medien": 7,
       "zielgruppe": 17,
       "digital": 24,
       "wirtschaft": 21,
       "identitaet": 15,
       "praktikabilitaet": 15
     },
-    "score": 71,
+    "score": 66,
     "description": "Stadtstadt mit 1,906,411 Einwohnern"
   }
 ]

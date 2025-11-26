@@ -50,31 +50,6 @@
     "description": "Landeshauptstadt mit 217,118 Einwohnern"
   },
   {
-    "name": "Kaiserslautern",
-    "bundesland": "Rheinland-Pfalz",
-    "einwohner": 100030,
-    "kaufkraft": 21345.0,
-    "akademikerquote": 26.8,
-    "lokalzeitungen": 1,
-    "typ": "Universitätsstadt",
-    "openData": true,
-    "funke": false,
-    "ippen": false,
-    "madsack": false,
-    "lat": 51.0,
-    "lng": 10.0,
-    "scores": {
-      "medien": 25,
-      "zielgruppe": 10,
-      "digital": 22,
-      "wirtschaft": 16,
-      "identitaet": 17,
-      "praktikabilitaet": 20
-    },
-    "score": 73,
-    "description": "Universitätsstadt mit 100,030 Einwohnern"
-  },
-  {
     "name": "Koblenz",
     "bundesland": "Rheinland-Pfalz",
     "einwohner": 114024,
@@ -98,6 +73,31 @@
     },
     "score": 73,
     "description": "Stadt mit 114,024 Einwohnern"
+  },
+  {
+    "name": "Kaiserslautern",
+    "bundesland": "Rheinland-Pfalz",
+    "einwohner": 100030,
+    "kaufkraft": 21345.0,
+    "akademikerquote": 26.8,
+    "lokalzeitungen": 1,
+    "typ": "Universitätsstadt",
+    "openData": true,
+    "funke": false,
+    "ippen": false,
+    "madsack": false,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 25,
+      "zielgruppe": 10,
+      "digital": 22,
+      "wirtschaft": 16,
+      "identitaet": 17,
+      "praktikabilitaet": 20
+    },
+    "score": 73,
+    "description": "Universitätsstadt mit 100,030 Einwohnern"
   },
   {
     "name": "Speyer",
@@ -275,31 +275,6 @@
     "description": "Stadt mit 172,253 Einwohnern"
   },
   {
-    "name": "Frankenthal",
-    "bundesland": "Rheinland-Pfalz",
-    "einwohner": 48762,
-    "kaufkraft": 22123.0,
-    "akademikerquote": 23.4,
-    "lokalzeitungen": 1,
-    "typ": "Stadt",
-    "openData": false,
-    "funke": false,
-    "ippen": false,
-    "madsack": false,
-    "lat": 51.0,
-    "lng": 10.0,
-    "scores": {
-      "medien": 25,
-      "zielgruppe": 10,
-      "digital": 16,
-      "wirtschaft": 17,
-      "identitaet": 18,
-      "praktikabilitaet": 18
-    },
-    "score": 69,
-    "description": "Stadt mit 48,762 Einwohnern"
-  },
-  {
     "name": "Neuwied",
     "bundesland": "Rheinland-Pfalz",
     "einwohner": 64860,
@@ -323,6 +298,31 @@
     },
     "score": 69,
     "description": "Stadt mit 64,860 Einwohnern"
+  },
+  {
+    "name": "Frankenthal",
+    "bundesland": "Rheinland-Pfalz",
+    "einwohner": 48762,
+    "kaufkraft": 22123.0,
+    "akademikerquote": 23.4,
+    "lokalzeitungen": 1,
+    "typ": "Stadt",
+    "openData": false,
+    "funke": false,
+    "ippen": false,
+    "madsack": false,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 25,
+      "zielgruppe": 10,
+      "digital": 16,
+      "wirtschaft": 17,
+      "identitaet": 18,
+      "praktikabilitaet": 18
+    },
+    "score": 69,
+    "description": "Stadt mit 48,762 Einwohnern"
   },
   {
     "name": "Andernach",
@@ -350,31 +350,6 @@
     "description": "Stadt mit 30,885 Einwohnern"
   },
   {
-    "name": "Idar-Oberstein",
-    "bundesland": "Rheinland-Pfalz",
-    "einwohner": 29721,
-    "kaufkraft": 20456.0,
-    "akademikerquote": 21.6,
-    "lokalzeitungen": 1,
-    "typ": "Stadt",
-    "openData": false,
-    "funke": false,
-    "ippen": false,
-    "madsack": false,
-    "lat": 51.0,
-    "lng": 10.0,
-    "scores": {
-      "medien": 25,
-      "zielgruppe": 8,
-      "digital": 16,
-      "wirtschaft": 15,
-      "identitaet": 18,
-      "praktikabilitaet": 18
-    },
-    "score": 66,
-    "description": "Stadt mit 29,721 Einwohnern"
-  },
-  {
     "name": "Zweibrücken",
     "bundesland": "Rheinland-Pfalz",
     "einwohner": 34193,
@@ -398,6 +373,31 @@
     },
     "score": 66,
     "description": "Stadt mit 34,193 Einwohnern"
+  },
+  {
+    "name": "Idar-Oberstein",
+    "bundesland": "Rheinland-Pfalz",
+    "einwohner": 29721,
+    "kaufkraft": 20456.0,
+    "akademikerquote": 21.6,
+    "lokalzeitungen": 1,
+    "typ": "Stadt",
+    "openData": false,
+    "funke": false,
+    "ippen": false,
+    "madsack": false,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 25,
+      "zielgruppe": 8,
+      "digital": 16,
+      "wirtschaft": 15,
+      "identitaet": 18,
+      "praktikabilitaet": 18
+    },
+    "score": 66,
+    "description": "Stadt mit 29,721 Einwohnern"
   },
   {
     "name": "Pirmasens",

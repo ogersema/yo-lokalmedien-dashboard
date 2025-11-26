@@ -34,19 +34,19 @@
     "typ": "Stadtstadt",
     "openData": true,
     "funke": false,
-    "ippen": false,
+    "ippen": true,
     "madsack": false,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 19,
+      "medien": 16,
       "zielgruppe": 12,
       "digital": 24,
       "wirtschaft": 17,
       "identitaet": 15,
       "praktikabilitaet": 15
     },
-    "score": 68,
+    "score": 66,
     "description": "Stadtstadt mit 567,559 Einwohnern"
   }
 ]

@@ -25,31 +25,6 @@
     "description": "Stadt mit 34,488 Einwohnern"
   },
   {
-    "name": "Norderstedt",
-    "bundesland": "Schleswig-Holstein",
-    "einwohner": 81591,
-    "kaufkraft": 24567.0,
-    "akademikerquote": 25.8,
-    "lokalzeitungen": 0,
-    "typ": "Stadt",
-    "openData": false,
-    "funke": false,
-    "ippen": false,
-    "madsack": false,
-    "lat": 51.0,
-    "lng": 10.0,
-    "scores": {
-      "medien": 25,
-      "zielgruppe": 13,
-      "digital": 17,
-      "wirtschaft": 19,
-      "identitaet": 18,
-      "praktikabilitaet": 20
-    },
-    "score": 74,
-    "description": "Stadt mit 81,591 Einwohnern"
-  },
-  {
     "name": "Wedel",
     "bundesland": "Schleswig-Holstein",
     "einwohner": 34060,
@@ -73,6 +48,31 @@
     },
     "score": 74,
     "description": "Stadt mit 34,060 Einwohnern"
+  },
+  {
+    "name": "Norderstedt",
+    "bundesland": "Schleswig-Holstein",
+    "einwohner": 81591,
+    "kaufkraft": 24567.0,
+    "akademikerquote": 25.8,
+    "lokalzeitungen": 0,
+    "typ": "Stadt",
+    "openData": false,
+    "funke": false,
+    "ippen": false,
+    "madsack": false,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 25,
+      "zielgruppe": 13,
+      "digital": 17,
+      "wirtschaft": 19,
+      "identitaet": 18,
+      "praktikabilitaet": 20
+    },
+    "score": 74,
+    "description": "Stadt mit 81,591 Einwohnern"
   },
   {
     "name": "Flensburg",
@@ -125,31 +125,6 @@
     "description": "Stadt mit 43,915 Einwohnern"
   },
   {
-    "name": "Elmshorn",
-    "bundesland": "Schleswig-Holstein",
-    "einwohner": 50141,
-    "kaufkraft": 22234.0,
-    "akademikerquote": 22.7,
-    "lokalzeitungen": 1,
-    "typ": "Stadt",
-    "openData": false,
-    "funke": false,
-    "ippen": false,
-    "madsack": false,
-    "lat": 51.0,
-    "lng": 10.0,
-    "scores": {
-      "medien": 25,
-      "zielgruppe": 10,
-      "digital": 16,
-      "wirtschaft": 17,
-      "identitaet": 18,
-      "praktikabilitaet": 20
-    },
-    "score": 70,
-    "description": "Stadt mit 50,141 Einwohnern"
-  },
-  {
     "name": "Geesthacht",
     "bundesland": "Schleswig-Holstein",
     "einwohner": 30665,
@@ -175,36 +150,11 @@
     "description": "Stadt mit 30,665 Einwohnern"
   },
   {
-    "name": "Kiel",
+    "name": "Elmshorn",
     "bundesland": "Schleswig-Holstein",
-    "einwohner": 246243,
-    "kaufkraft": 21234.0,
-    "akademikerquote": 27.8,
-    "lokalzeitungen": 2,
-    "typ": "Landeshauptstadt",
-    "openData": true,
-    "funke": false,
-    "ippen": false,
-    "madsack": false,
-    "lat": 51.0,
-    "lng": 10.0,
-    "scores": {
-      "medien": 22,
-      "zielgruppe": 11,
-      "digital": 23,
-      "wirtschaft": 16,
-      "identitaet": 17,
-      "praktikabilitaet": 15
-    },
-    "score": 69,
-    "description": "Landeshauptstadt mit 246,243 Einwohnern"
-  },
-  {
-    "name": "Neumünster",
-    "bundesland": "Schleswig-Holstein",
-    "einwohner": 79487,
-    "kaufkraft": 20456.0,
-    "akademikerquote": 21.4,
+    "einwohner": 50141,
+    "kaufkraft": 22234.0,
+    "akademikerquote": 22.7,
     "lokalzeitungen": 1,
     "typ": "Stadt",
     "openData": false,
@@ -215,14 +165,39 @@
     "lng": 10.0,
     "scores": {
       "medien": 25,
-      "zielgruppe": 8,
+      "zielgruppe": 10,
       "digital": 16,
-      "wirtschaft": 15,
+      "wirtschaft": 17,
       "identitaet": 18,
       "praktikabilitaet": 20
     },
-    "score": 68,
-    "description": "Stadt mit 79,487 Einwohnern"
+    "score": 70,
+    "description": "Stadt mit 50,141 Einwohnern"
+  },
+  {
+    "name": "Kiel",
+    "bundesland": "Schleswig-Holstein",
+    "einwohner": 246243,
+    "kaufkraft": 21234.0,
+    "akademikerquote": 27.8,
+    "lokalzeitungen": 2,
+    "typ": "Landeshauptstadt",
+    "openData": true,
+    "funke": false,
+    "ippen": false,
+    "madsack": true,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 19,
+      "zielgruppe": 11,
+      "digital": 23,
+      "wirtschaft": 16,
+      "identitaet": 17,
+      "praktikabilitaet": 15
+    },
+    "score": 67,
+    "description": "Landeshauptstadt mit 246,243 Einwohnern"
   },
   {
     "name": "Lübeck",
@@ -235,18 +210,43 @@
     "openData": true,
     "funke": false,
     "ippen": false,
-    "madsack": false,
+    "madsack": true,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 22,
+      "medien": 19,
       "zielgruppe": 11,
       "digital": 23,
       "wirtschaft": 16,
       "identitaet": 15,
       "praktikabilitaet": 15
     },
-    "score": 68,
+    "score": 66,
     "description": "Stadt mit 217,198 Einwohnern"
+  },
+  {
+    "name": "Neumünster",
+    "bundesland": "Schleswig-Holstein",
+    "einwohner": 79487,
+    "kaufkraft": 20456.0,
+    "akademikerquote": 21.4,
+    "lokalzeitungen": 1,
+    "typ": "Stadt",
+    "openData": false,
+    "funke": false,
+    "ippen": false,
+    "madsack": true,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 22,
+      "zielgruppe": 8,
+      "digital": 16,
+      "wirtschaft": 15,
+      "identitaet": 18,
+      "praktikabilitaet": 20
+    },
+    "score": 66,
+    "description": "Stadt mit 79,487 Einwohnern"
   }
 ]

@@ -10,44 +10,19 @@
     "openData": true,
     "funke": false,
     "ippen": false,
-    "madsack": false,
+    "madsack": true,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 22,
+      "medien": 19,
       "zielgruppe": 16,
       "digital": 24,
       "wirtschaft": 18,
       "identitaet": 17,
       "praktikabilitaet": 20
     },
-    "score": 78,
+    "score": 76,
     "description": "Landeshauptstadt mit 183,154 Einwohnern"
-  },
-  {
-    "name": "Bernau",
-    "bundesland": "Brandenburg",
-    "einwohner": 40908,
-    "kaufkraft": 22456.0,
-    "akademikerquote": 25.8,
-    "lokalzeitungen": 0,
-    "typ": "Stadt",
-    "openData": false,
-    "funke": false,
-    "ippen": false,
-    "madsack": false,
-    "lat": 51.0,
-    "lng": 10.0,
-    "scores": {
-      "medien": 25,
-      "zielgruppe": 11,
-      "digital": 16,
-      "wirtschaft": 17,
-      "identitaet": 18,
-      "praktikabilitaet": 18
-    },
-    "score": 70,
-    "description": "Stadt mit 40,908 Einwohnern"
   },
   {
     "name": "Königs Wusterhausen",
@@ -75,31 +50,6 @@
     "description": "Stadt mit 38,078 Einwohnern"
   },
   {
-    "name": "Oranienburg",
-    "bundesland": "Brandenburg",
-    "einwohner": 45492,
-    "kaufkraft": 21345.0,
-    "akademikerquote": 24.2,
-    "lokalzeitungen": 1,
-    "typ": "Stadt",
-    "openData": false,
-    "funke": false,
-    "ippen": false,
-    "madsack": false,
-    "lat": 51.0,
-    "lng": 10.0,
-    "scores": {
-      "medien": 25,
-      "zielgruppe": 10,
-      "digital": 16,
-      "wirtschaft": 16,
-      "identitaet": 18,
-      "praktikabilitaet": 18
-    },
-    "score": 68,
-    "description": "Stadt mit 45,492 Einwohnern"
-  },
-  {
     "name": "Cottbus",
     "bundesland": "Brandenburg",
     "einwohner": 98693,
@@ -125,6 +75,56 @@
     "description": "Stadt mit 98,693 Einwohnern"
   },
   {
+    "name": "Bernau",
+    "bundesland": "Brandenburg",
+    "einwohner": 40908,
+    "kaufkraft": 22456.0,
+    "akademikerquote": 25.8,
+    "lokalzeitungen": 0,
+    "typ": "Stadt",
+    "openData": false,
+    "funke": false,
+    "ippen": false,
+    "madsack": true,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 22,
+      "zielgruppe": 11,
+      "digital": 16,
+      "wirtschaft": 17,
+      "identitaet": 18,
+      "praktikabilitaet": 18
+    },
+    "score": 68,
+    "description": "Stadt mit 40,908 Einwohnern"
+  },
+  {
+    "name": "Oranienburg",
+    "bundesland": "Brandenburg",
+    "einwohner": 45492,
+    "kaufkraft": 21345.0,
+    "akademikerquote": 24.2,
+    "lokalzeitungen": 1,
+    "typ": "Stadt",
+    "openData": false,
+    "funke": false,
+    "ippen": false,
+    "madsack": true,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 22,
+      "zielgruppe": 10,
+      "digital": 16,
+      "wirtschaft": 16,
+      "identitaet": 18,
+      "praktikabilitaet": 18
+    },
+    "score": 66,
+    "description": "Stadt mit 45,492 Einwohnern"
+  },
+  {
     "name": "Brandenburg",
     "bundesland": "Brandenburg",
     "einwohner": 72124,
@@ -135,18 +135,18 @@
     "openData": false,
     "funke": false,
     "ippen": false,
-    "madsack": false,
+    "madsack": true,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 25,
+      "medien": 22,
       "zielgruppe": 7,
       "digital": 16,
       "wirtschaft": 14,
       "identitaet": 18,
       "praktikabilitaet": 20
     },
-    "score": 66,
+    "score": 64,
     "description": "Stadt mit 72,124 Einwohnern"
   },
   {
@@ -160,18 +160,18 @@
     "openData": false,
     "funke": false,
     "ippen": false,
-    "madsack": false,
+    "madsack": true,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 25,
+      "medien": 22,
       "zielgruppe": 7,
       "digital": 16,
       "wirtschaft": 13,
       "identitaet": 18,
       "praktikabilitaet": 20
     },
-    "score": 66,
+    "score": 64,
     "description": "Stadt mit 57,015 Einwohnern"
   },
   {
@@ -185,18 +185,18 @@
     "openData": false,
     "funke": false,
     "ippen": false,
-    "madsack": false,
+    "madsack": true,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 25,
+      "medien": 22,
       "zielgruppe": 7,
       "digital": 16,
       "wirtschaft": 14,
       "identitaet": 18,
       "praktikabilitaet": 18
     },
-    "score": 65,
+    "score": 63,
     "description": "Stadt mit 41,268 Einwohnern"
   }
 ]

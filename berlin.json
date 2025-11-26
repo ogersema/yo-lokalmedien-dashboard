@@ -8,20 +8,20 @@
     "lokalzeitungen": 8,
     "typ": "Hauptstadt",
     "openData": true,
-    "funke": false,
+    "funke": true,
     "ippen": false,
     "madsack": false,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 15,
+      "medien": 10,
       "zielgruppe": 15,
       "digital": 24,
       "wirtschaft": 18,
       "identitaet": 15,
       "praktikabilitaet": 15
     },
-    "score": 68,
+    "score": 64,
     "description": "Hauptstadt mit 3,677,472 Einwohnern"
   }
 ]

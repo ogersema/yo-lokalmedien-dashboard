@@ -10,18 +10,18 @@
     "openData": false,
     "funke": false,
     "ippen": false,
-    "madsack": false,
+    "madsack": true,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 25,
+      "medien": 22,
       "zielgruppe": 9,
       "digital": 17,
       "wirtschaft": 13,
       "identitaet": 20,
       "praktikabilitaet": 20
     },
-    "score": 69,
+    "score": 67,
     "description": "Universitätsstadt mit 59,282 Einwohnern"
   },
   {
@@ -35,18 +35,18 @@
     "openData": false,
     "funke": false,
     "ippen": false,
-    "madsack": false,
+    "madsack": true,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 25,
+      "medien": 22,
       "zielgruppe": 8,
       "digital": 17,
       "wirtschaft": 14,
       "identitaet": 20,
       "praktikabilitaet": 20
     },
-    "score": 69,
+    "score": 67,
     "description": "Landeshauptstadt mit 95,653 Einwohnern"
   },
   {
@@ -60,18 +60,18 @@
     "openData": true,
     "funke": false,
     "ippen": false,
-    "madsack": false,
+    "madsack": true,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 25,
+      "medien": 22,
       "zielgruppe": 10,
       "digital": 23,
       "wirtschaft": 15,
       "identitaet": 15,
       "praktikabilitaet": 15
     },
-    "score": 68,
+    "score": 66,
     "description": "Stadt mit 209,191 Einwohnern"
   },
   {
@@ -85,18 +85,18 @@
     "openData": false,
     "funke": false,
     "ippen": false,
-    "madsack": false,
+    "madsack": true,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 25,
+      "medien": 22,
       "zielgruppe": 8,
       "digital": 16,
       "wirtschaft": 14,
       "identitaet": 18,
       "praktikabilitaet": 20
     },
-    "score": 67,
+    "score": 65,
     "description": "Stadt mit 59,357 Einwohnern"
   },
   {
@@ -110,18 +110,18 @@
     "openData": false,
     "funke": false,
     "ippen": false,
-    "madsack": false,
+    "madsack": true,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 25,
+      "medien": 22,
       "zielgruppe": 7,
       "digital": 16,
       "wirtschaft": 13,
       "identitaet": 18,
       "praktikabilitaet": 20
     },
-    "score": 66,
+    "score": 64,
     "description": "Stadt mit 63,439 Einwohnern"
   }
 ]

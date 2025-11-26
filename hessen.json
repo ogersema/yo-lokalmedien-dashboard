@@ -125,31 +125,6 @@
     "description": "Universitätsstadt mit 76,401 Einwohnern"
   },
   {
-    "name": "Gießen",
-    "bundesland": "Hessen",
-    "einwohner": 88623,
-    "kaufkraft": 22876.0,
-    "akademikerquote": 33.8,
-    "lokalzeitungen": 1,
-    "typ": "Universitätsstadt",
-    "openData": false,
-    "funke": false,
-    "ippen": false,
-    "madsack": false,
-    "lat": 51.0,
-    "lng": 10.0,
-    "scores": {
-      "medien": 25,
-      "zielgruppe": 14,
-      "digital": 17,
-      "wirtschaft": 17,
-      "identitaet": 20,
-      "praktikabilitaet": 20
-    },
-    "score": 75,
-    "description": "Universitätsstadt mit 88,623 Einwohnern"
-  },
-  {
     "name": "Wiesbaden",
     "bundesland": "Hessen",
     "einwohner": 278474,
@@ -164,40 +139,15 @@
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 20,
+      "medien": 22,
       "zielgruppe": 16,
       "digital": 24,
       "wirtschaft": 21,
       "identitaet": 17,
       "praktikabilitaet": 15
     },
-    "score": 75,
+    "score": 76,
     "description": "Landeshauptstadt mit 278,474 Einwohnern"
-  },
-  {
-    "name": "Frankfurt",
-    "bundesland": "Hessen",
-    "einwohner": 763380,
-    "kaufkraft": 28142.0,
-    "akademikerquote": 33.7,
-    "lokalzeitungen": 4,
-    "typ": "Stadt",
-    "openData": true,
-    "funke": false,
-    "ippen": false,
-    "madsack": false,
-    "lat": 51.0,
-    "lng": 10.0,
-    "scores": {
-      "medien": 17,
-      "zielgruppe": 18,
-      "digital": 24,
-      "wirtschaft": 23,
-      "identitaet": 15,
-      "praktikabilitaet": 15
-    },
-    "score": 74,
-    "description": "Stadt mit 763,380 Einwohnern"
   },
   {
     "name": "Neu-Isenburg",
@@ -225,6 +175,31 @@
     "description": "Stadt mit 38,204 Einwohnern"
   },
   {
+    "name": "Frankfurt",
+    "bundesland": "Hessen",
+    "einwohner": 763380,
+    "kaufkraft": 28142.0,
+    "akademikerquote": 33.7,
+    "lokalzeitungen": 4,
+    "typ": "Stadt",
+    "openData": true,
+    "funke": false,
+    "ippen": true,
+    "madsack": false,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 16,
+      "zielgruppe": 18,
+      "digital": 24,
+      "wirtschaft": 23,
+      "identitaet": 15,
+      "praktikabilitaet": 15
+    },
+    "score": 74,
+    "description": "Stadt mit 763,380 Einwohnern"
+  },
+  {
     "name": "Dreieich",
     "bundesland": "Hessen",
     "einwohner": 42168,
@@ -250,29 +225,29 @@
     "description": "Stadt mit 42,168 Einwohnern"
   },
   {
-    "name": "Bad Vilbel",
+    "name": "Gießen",
     "bundesland": "Hessen",
-    "einwohner": 34585,
-    "kaufkraft": 25123.0,
-    "akademikerquote": 26.7,
-    "lokalzeitungen": 0,
-    "typ": "Stadt",
+    "einwohner": 88623,
+    "kaufkraft": 22876.0,
+    "akademikerquote": 33.8,
+    "lokalzeitungen": 1,
+    "typ": "Universitätsstadt",
     "openData": false,
     "funke": false,
-    "ippen": false,
+    "ippen": true,
     "madsack": false,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 25,
+      "medien": 22,
       "zielgruppe": 14,
-      "digital": 16,
-      "wirtschaft": 20,
-      "identitaet": 18,
-      "praktikabilitaet": 18
+      "digital": 17,
+      "wirtschaft": 17,
+      "identitaet": 20,
+      "praktikabilitaet": 20
     },
-    "score": 74,
-    "description": "Stadt mit 34,585 Einwohnern"
+    "score": 73,
+    "description": "Universitätsstadt mit 88,623 Einwohnern"
   },
   {
     "name": "Rüsselsheim",
@@ -300,31 +275,6 @@
     "description": "Stadt mit 65,060 Einwohnern"
   },
   {
-    "name": "Langen",
-    "bundesland": "Hessen",
-    "einwohner": 37775,
-    "kaufkraft": 24876.0,
-    "akademikerquote": 25.9,
-    "lokalzeitungen": 0,
-    "typ": "Stadt",
-    "openData": false,
-    "funke": false,
-    "ippen": false,
-    "madsack": false,
-    "lat": 51.0,
-    "lng": 10.0,
-    "scores": {
-      "medien": 25,
-      "zielgruppe": 13,
-      "digital": 16,
-      "wirtschaft": 19,
-      "identitaet": 18,
-      "praktikabilitaet": 18
-    },
-    "score": 72,
-    "description": "Stadt mit 37,775 Einwohnern"
-  },
-  {
     "name": "Taunusstein",
     "bundesland": "Hessen",
     "einwohner": 30069,
@@ -348,6 +298,31 @@
     },
     "score": 72,
     "description": "Stadt mit 30,069 Einwohnern"
+  },
+  {
+    "name": "Langen",
+    "bundesland": "Hessen",
+    "einwohner": 37775,
+    "kaufkraft": 24876.0,
+    "akademikerquote": 25.9,
+    "lokalzeitungen": 0,
+    "typ": "Stadt",
+    "openData": false,
+    "funke": false,
+    "ippen": false,
+    "madsack": false,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 25,
+      "zielgruppe": 13,
+      "digital": 16,
+      "wirtschaft": 19,
+      "identitaet": 18,
+      "praktikabilitaet": 18
+    },
+    "score": 72,
+    "description": "Stadt mit 37,775 Einwohnern"
   },
   {
     "name": "Wetzlar",
@@ -375,29 +350,29 @@
     "description": "Stadt mit 52,953 Einwohnern"
   },
   {
-    "name": "Hanau",
+    "name": "Bad Vilbel",
     "bundesland": "Hessen",
-    "einwohner": 96023,
-    "kaufkraft": 23456.0,
-    "akademikerquote": 23.2,
-    "lokalzeitungen": 1,
+    "einwohner": 34585,
+    "kaufkraft": 25123.0,
+    "akademikerquote": 26.7,
+    "lokalzeitungen": 0,
     "typ": "Stadt",
     "openData": false,
     "funke": false,
-    "ippen": false,
+    "ippen": true,
     "madsack": false,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 25,
-      "zielgruppe": 11,
-      "digital": 17,
-      "wirtschaft": 18,
+      "medien": 22,
+      "zielgruppe": 14,
+      "digital": 16,
+      "wirtschaft": 20,
       "identitaet": 18,
-      "praktikabilitaet": 20
+      "praktikabilitaet": 18
     },
     "score": 72,
-    "description": "Stadt mit 96,023 Einwohnern"
+    "description": "Stadt mit 34,585 Einwohnern"
   },
   {
     "name": "Fulda",
@@ -425,31 +400,6 @@
     "description": "Stadt mit 68,635 Einwohnern"
   },
   {
-    "name": "Friedberg",
-    "bundesland": "Hessen",
-    "einwohner": 30175,
-    "kaufkraft": 23456.0,
-    "akademikerquote": 24.3,
-    "lokalzeitungen": 0,
-    "typ": "Stadt",
-    "openData": false,
-    "funke": false,
-    "ippen": false,
-    "madsack": false,
-    "lat": 51.0,
-    "lng": 10.0,
-    "scores": {
-      "medien": 25,
-      "zielgruppe": 12,
-      "digital": 16,
-      "wirtschaft": 18,
-      "identitaet": 18,
-      "praktikabilitaet": 18
-    },
-    "score": 71,
-    "description": "Stadt mit 30,175 Einwohnern"
-  },
-  {
     "name": "Maintal",
     "bundesland": "Hessen",
     "einwohner": 39254,
@@ -473,31 +423,6 @@
     },
     "score": 71,
     "description": "Stadt mit 39,254 Einwohnern"
-  },
-  {
-    "name": "Offenbach",
-    "bundesland": "Hessen",
-    "einwohner": 128744,
-    "kaufkraft": 22987.0,
-    "akademikerquote": 24.7,
-    "lokalzeitungen": 2,
-    "typ": "Stadt",
-    "openData": true,
-    "funke": false,
-    "ippen": false,
-    "madsack": false,
-    "lat": 51.0,
-    "lng": 10.0,
-    "scores": {
-      "medien": 22,
-      "zielgruppe": 11,
-      "digital": 22,
-      "wirtschaft": 17,
-      "identitaet": 15,
-      "praktikabilitaet": 20
-    },
-    "score": 71,
-    "description": "Stadt mit 128,744 Einwohnern"
   },
   {
     "name": "Rodgau",
@@ -525,29 +450,79 @@
     "description": "Stadt mit 45,878 Einwohnern"
   },
   {
-    "name": "Viernheim",
+    "name": "Hanau",
     "bundesland": "Hessen",
-    "einwohner": 34429,
-    "kaufkraft": 22789.0,
-    "akademikerquote": 22.6,
-    "lokalzeitungen": 0,
+    "einwohner": 96023,
+    "kaufkraft": 23456.0,
+    "akademikerquote": 23.2,
+    "lokalzeitungen": 1,
     "typ": "Stadt",
     "openData": false,
     "funke": false,
-    "ippen": false,
+    "ippen": true,
     "madsack": false,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 25,
-      "zielgruppe": 10,
-      "digital": 16,
+      "medien": 22,
+      "zielgruppe": 11,
+      "digital": 17,
+      "wirtschaft": 18,
+      "identitaet": 18,
+      "praktikabilitaet": 20
+    },
+    "score": 70,
+    "description": "Stadt mit 96,023 Einwohnern"
+  },
+  {
+    "name": "Offenbach",
+    "bundesland": "Hessen",
+    "einwohner": 128744,
+    "kaufkraft": 22987.0,
+    "akademikerquote": 24.7,
+    "lokalzeitungen": 2,
+    "typ": "Stadt",
+    "openData": true,
+    "funke": false,
+    "ippen": true,
+    "madsack": false,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 19,
+      "zielgruppe": 11,
+      "digital": 22,
       "wirtschaft": 17,
+      "identitaet": 15,
+      "praktikabilitaet": 20
+    },
+    "score": 69,
+    "description": "Stadt mit 128,744 Einwohnern"
+  },
+  {
+    "name": "Friedberg",
+    "bundesland": "Hessen",
+    "einwohner": 30175,
+    "kaufkraft": 23456.0,
+    "akademikerquote": 24.3,
+    "lokalzeitungen": 0,
+    "typ": "Stadt",
+    "openData": false,
+    "funke": false,
+    "ippen": true,
+    "madsack": false,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 22,
+      "zielgruppe": 12,
+      "digital": 16,
+      "wirtschaft": 18,
       "identitaet": 18,
       "praktikabilitaet": 18
     },
     "score": 69,
-    "description": "Stadt mit 34,429 Einwohnern"
+    "description": "Stadt mit 30,175 Einwohnern"
   },
   {
     "name": "Lampertheim",
@@ -573,6 +548,31 @@
     },
     "score": 69,
     "description": "Stadt mit 32,863 Einwohnern"
+  },
+  {
+    "name": "Viernheim",
+    "bundesland": "Hessen",
+    "einwohner": 34429,
+    "kaufkraft": 22789.0,
+    "akademikerquote": 22.6,
+    "lokalzeitungen": 0,
+    "typ": "Stadt",
+    "openData": false,
+    "funke": false,
+    "ippen": false,
+    "madsack": false,
+    "lat": 51.0,
+    "lng": 10.0,
+    "scores": {
+      "medien": 25,
+      "zielgruppe": 10,
+      "digital": 16,
+      "wirtschaft": 17,
+      "identitaet": 18,
+      "praktikabilitaet": 18
+    },
+    "score": 69,
+    "description": "Stadt mit 34,429 Einwohnern"
   },
   {
     "name": "Dietzenbach",
@@ -609,19 +609,19 @@
     "typ": "Stadt",
     "openData": true,
     "funke": false,
-    "ippen": false,
+    "ippen": true,
     "madsack": false,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 20,
+      "medien": 19,
       "zielgruppe": 11,
       "digital": 23,
       "wirtschaft": 17,
       "identitaet": 15,
       "praktikabilitaet": 15
     },
-    "score": 67,
+    "score": 66,
     "description": "Stadt mit 201,585 Einwohnern"
   }
 ]

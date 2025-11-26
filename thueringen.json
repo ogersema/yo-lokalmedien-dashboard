@@ -8,20 +8,20 @@
     "lokalzeitungen": 1,
     "typ": "Universitätsstadt",
     "openData": true,
-    "funke": false,
+    "funke": true,
     "ippen": false,
     "madsack": false,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 25,
+      "medien": 22,
       "zielgruppe": 14,
       "digital": 23,
       "wirtschaft": 16,
       "identitaet": 17,
       "praktikabilitaet": 20
     },
-    "score": 76,
+    "score": 74,
     "description": "Universitätsstadt mit 111,343 Einwohnern"
   },
   {
@@ -33,20 +33,20 @@
     "lokalzeitungen": 1,
     "typ": "Kulturstadt",
     "openData": false,
-    "funke": false,
+    "funke": true,
     "ippen": false,
     "madsack": false,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 25,
+      "medien": 22,
       "zielgruppe": 10,
       "digital": 17,
       "wirtschaft": 14,
       "identitaet": 18,
       "praktikabilitaet": 20
     },
-    "score": 69,
+    "score": 67,
     "description": "Kulturstadt mit 65,090 Einwohnern"
   },
   {
@@ -58,20 +58,20 @@
     "lokalzeitungen": 2,
     "typ": "Landeshauptstadt",
     "openData": true,
-    "funke": false,
+    "funke": true,
     "ippen": false,
     "madsack": false,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 22,
+      "medien": 19,
       "zielgruppe": 11,
       "digital": 23,
       "wirtschaft": 15,
       "identitaet": 17,
       "praktikabilitaet": 15
     },
-    "score": 68,
+    "score": 66,
     "description": "Landeshauptstadt mit 213,699 Einwohnern"
   },
   {
@@ -83,20 +83,20 @@
     "lokalzeitungen": 1,
     "typ": "Stadt",
     "openData": false,
-    "funke": false,
+    "funke": true,
     "ippen": false,
     "madsack": false,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 25,
+      "medien": 22,
       "zielgruppe": 8,
       "digital": 16,
       "wirtschaft": 14,
       "identitaet": 18,
       "praktikabilitaet": 18
     },
-    "score": 66,
+    "score": 64,
     "description": "Stadt mit 41,970 Einwohnern"
   },
   {
@@ -108,20 +108,20 @@
     "lokalzeitungen": 1,
     "typ": "Stadt",
     "openData": false,
-    "funke": false,
+    "funke": true,
     "ippen": false,
     "madsack": false,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 25,
+      "medien": 22,
       "zielgruppe": 7,
       "digital": 16,
       "wirtschaft": 13,
       "identitaet": 18,
       "praktikabilitaet": 20
     },
-    "score": 66,
+    "score": 64,
     "description": "Stadt mit 92,126 Einwohnern"
   },
   {
@@ -133,20 +133,20 @@
     "lokalzeitungen": 1,
     "typ": "Stadt",
     "openData": false,
-    "funke": false,
+    "funke": true,
     "ippen": false,
     "madsack": false,
     "lat": 51.0,
     "lng": 10.0,
     "scores": {
-      "medien": 25,
+      "medien": 22,
       "zielgruppe": 7,
       "digital": 16,
       "wirtschaft": 14,
       "identitaet": 18,
       "praktikabilitaet": 18
     },
-    "score": 65,
+    "score": 63,
     "description": "Stadt mit 44,370 Einwohnern"
   }
 ]
