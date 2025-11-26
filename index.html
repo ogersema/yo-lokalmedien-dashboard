@@ -1248,11 +1248,10 @@
             try {
                 // Try different filenames in order of preference
                 const filenames = [
-                    'cities-data-complete-40.json',
-                    'cities-data-complete.json',
-                    'cities-data.json'
-                ];
-                
+    'data/cities-core.json',      // Top 50 sofort
+    'data/cities-tier2.json',     // 51-150 nach 1 Sek
+    'data/cities-tier3.json'      // 151-298 nach 2 Sek
+];               
                 let data = null;
                 for (const filename of filenames) {
                     try {
